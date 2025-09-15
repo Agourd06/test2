@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/header.css";
 import { FaUser } from "react-icons/fa"; 
+import { IoIosArrowDown } from "react-icons/io";
+
 interface HeaderProps {
   className?: string;
   onBurgerClick?: () => void;
@@ -10,6 +12,7 @@ const Header: React.FC<HeaderProps> = ({ className, onBurgerClick }) => {
   return (
     <nav className={`header ${className || ""}`}>
       <div className="header-container">
+        {/* Left Section */}
         <div className="header-left">
           <button
             className="burger-menu"
@@ -42,11 +45,13 @@ const Header: React.FC<HeaderProps> = ({ className, onBurgerClick }) => {
           </button>
         </div>
 
+        {/* Right Section */}
         <div className="header-right">
           <div className="user-profile">
-            <div className="user-avatar">
-              <FaUser size={24} color="#555" />
+            <div className="user-avatar-box">
+              <FaUser size={20} color="#fff" />
             </div>
+            <IoIosArrowDown size={16} color="#374151" />
           </div>
         </div>
       </div>

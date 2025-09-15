@@ -1,12 +1,12 @@
 import React from "react";
 import MainLayout from "../layouts/MainLayout";
-import "../styles/pages/HomePage.css"; // <-- import CSS
+import "../styles/pages/HomePage.css"; 
 
 const HomePage: React.FC = () => {
   return (
     <MainLayout>
       <div className="home-container">
-        <div className="hom">{/* Optional space/banner */}</div>
+        <div className="hom">{}</div>
 
         <h1>Welcome to Your Dashboard</h1>
         <p>This is the main page content. Add charts, tables, or other components here.</p>
