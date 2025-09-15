@@ -5,12 +5,12 @@
   border-right: 1px solid #e5e7eb;
   box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
   position: fixed;
-  left: 0;
+  left: 5px;
   top: 60px;
   z-index: 1000;
   overflow: hidden;
   border-radius: 20px;
-  width: 200px; 
+  width: 80px; 
 }
 
 .sidebar-content {
