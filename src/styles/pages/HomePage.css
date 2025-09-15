@@ -1,5 +1,6 @@
 .home-container {
   max-width: 1200px;
+  min-width: 800px;
   margin: 0 auto;
   padding: 20px 15px;
   display: flex;
@@ -20,6 +21,16 @@
   margin-bottom: 20px;
 }
 
+.top-section {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.top-right {
+  gap: 10px;
+  display: flex;
+  justify-content: space-between;
+}
 
 
 

@@ -12,7 +12,6 @@ const Header: React.FC<HeaderProps> = ({ className, onBurgerClick }) => {
   return (
     <nav className={`header ${className || ""}`}>
       <div className="header-container">
-        {/* Left Section */}
         <div className="header-left">
           <button
             className="burger-menu"
@@ -45,7 +44,6 @@ const Header: React.FC<HeaderProps> = ({ className, onBurgerClick }) => {
           </button>
         </div>
 
-        {/* Right Section */}
         <div className="header-right">
           <div className="user-profile">
             <div className="user-avatar-box">

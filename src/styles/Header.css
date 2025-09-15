@@ -51,12 +51,13 @@
 .user-profile {
   display: flex;
   align-items: center;
-  gap: 0.5rem; /* spacing between avatar and arrow */
+  gap: 0.5rem; 
   padding: 0.5rem;
   border-radius: 0.5rem;
   cursor: pointer;
   transition: all 0.2s ease;
 }
+
 
 .user-profile:hover {
   background-color: #f9fafb;
