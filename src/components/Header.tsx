@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/header.css";
+import "../styles/Header.css";
 import { FaUser } from "react-icons/fa"; 
 import { IoIosArrowDown } from "react-icons/io";
 
